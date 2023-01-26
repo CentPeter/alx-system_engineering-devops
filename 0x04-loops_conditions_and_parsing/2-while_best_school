@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Rhis script is displaying "Best school" 10 times
+# Display "Best school" 10 times using a while loop
 
-count = 0
-while [ $count - lt 10 ]
+count=0
+while [ $count  -lt 10 ]
 do
 	echo "Best School"
 	(( count++ ))
